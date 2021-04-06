@@ -18,7 +18,7 @@ import everis.com.login.login.events.LoginEvents
 import everis.com.login.login.events.LoginInteractor
 import everis.com.login.login.model.KeyboardItem
 import everis.com.login.login.states.LoginStates
-import com.niemietz.everis.beca.modularizacao.R
+import everis.com.login.R
 import everis.com.login.login.interfaces.LoginAPI
 import everis.com.login.login.repository.LoginRepository
 import everis.com.login.login.ui.viewmodel.LoginViewModel
