@@ -1,4 +1,4 @@
-package com.niemietz.everis.beca.modularizacao.login.events
+package everis.com.login.login.events
 
 sealed class LoginInteractor {
     object GetSession: LoginInteractor()

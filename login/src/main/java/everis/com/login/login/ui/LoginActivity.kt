@@ -1,4 +1,4 @@
-package com.niemietz.everis.beca.modularizacao.login.ui
+package everis.com.login.login.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -14,15 +14,15 @@ import com.niemietz.everis.beca.core.com.niemietz.everis.beca.modularizacao.logi
 import com.niemietz.everis.beca.core.com.niemietz.everis.beca.modularizacao.login.constants.LoginConstants.EXTRA_RESULT_KEY
 import com.niemietz.everis.beca.core.com.niemietz.everis.beca.modularizacao.login.constants.LoginConstants.LOGIN_RESULT_CODE
 import com.niemietz.everis.beca.core.com.niemietz.everis.beca.modularizacao.login.textwatcher.LoginTextWatcher
-import com.niemietz.everis.beca.modularizacao.login.events.LoginEvents
-import com.niemietz.everis.beca.modularizacao.login.events.LoginInteractor
-import com.niemietz.everis.beca.modularizacao.login.model.KeyboardItem
-import com.niemietz.everis.beca.modularizacao.login.states.LoginStates
+import everis.com.login.login.events.LoginEvents
+import everis.com.login.login.events.LoginInteractor
+import everis.com.login.login.model.KeyboardItem
+import everis.com.login.login.states.LoginStates
 import com.niemietz.everis.beca.modularizacao.R
-import com.niemietz.everis.beca.modularizacao.login.interfaces.LoginAPI
-import com.niemietz.everis.beca.modularizacao.login.repository.LoginRepository
-import com.niemietz.everis.beca.modularizacao.login.ui.viewmodel.LoginViewModel
-import com.niemietz.everis.beca.modularizacao.login.ui.viewmodel.LoginViewModelFactory
+import everis.com.login.login.interfaces.LoginAPI
+import everis.com.login.login.repository.LoginRepository
+import everis.com.login.login.ui.viewmodel.LoginViewModel
+import everis.com.login.login.ui.viewmodel.LoginViewModelFactory
 
 class LoginActivity : AppCompatActivity() {
     private val etPassword: AppCompatEditText by lazy { findViewById(R.id.et_password) }

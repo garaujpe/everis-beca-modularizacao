@@ -1,6 +1,6 @@
-package com.niemietz.everis.beca.modularizacao.login.states
+package everis.com.login.login.states
 
-import com.niemietz.everis.beca.modularizacao.login.model.KeyboardItem
+import everis.com.login.login.model.KeyboardItem
 
 sealed class LoginStates {
     data class GetSessionResult(val keyboard: ArrayList<KeyboardItem>): LoginStates()

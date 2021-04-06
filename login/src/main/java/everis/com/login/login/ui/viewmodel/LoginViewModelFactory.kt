@@ -1,9 +1,9 @@
-package com.niemietz.everis.beca.modularizacao.login.ui.viewmodel
+package everis.com.login.login.ui.viewmodel
 
 import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import com.niemietz.everis.beca.modularizacao.login.repository.LoginRepository
+import everis.com.login.login.repository.LoginRepository
 import java.lang.IllegalArgumentException
 
 class LoginViewModelFactory(

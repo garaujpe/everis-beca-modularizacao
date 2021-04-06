@@ -1,4 +1,4 @@
-package com.niemietz.everis.beca.modularizacao.login.constants
+package everis.com.login.login.constants
 
 object APIConstants {
     const val GET_SESSION = "login/session"
