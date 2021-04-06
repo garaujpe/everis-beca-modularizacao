@@ -4,6 +4,6 @@
         android:state_enabled="true" />
     <item android:drawable="@drawable/pressed_rounded_dark_orange_button"
         android:state_pressed="true" />
-    <item android:drawable="@drawable/disabled_rounded_button"
+    <item android:drawable="@drawable/login_disabled_rounded_button"
         android:state_enabled="false" />
 </selector>

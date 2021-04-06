@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Modularizacao Login</string>
+
+    <string name="go_to_login">Fazer login</string>
+    <string name="login_realized_text">Login realizado com sucesso!</string>
+
 </resources>
